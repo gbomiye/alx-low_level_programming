@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * calloc - function allocates memory for an array of nmemb elements
+ * _calloc - function allocates memory for an array of nmemb elements
  * of size bytes each and returns a pointer
  * @nmemb: The num of input elements
  * @size: The byte size of each array element.
@@ -13,7 +13,7 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 
 {
-char *mal; 
+void *mal;
 char *all;
 unsigned int i;
 
