@@ -17,7 +17,7 @@ size_t s = 0;
 		if (!h->str)
 			printf("[0] (nil)\n");
 		else
-			printf("[%u] %s\n", h->len, h->str);
+			printf("[%d] %s\n", h->len, h->str);
 		h = h->next;
 		s++;
 }
